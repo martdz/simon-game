@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simon Game</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="simon.css">
+		<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:400,700" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	</head>
+	<body>
+	<div id="box">
+		<table>
+			<tr>
+				<td class="colors" id= "blueviolet"></td>
+				<td class="colors" id= "yellow"></td>
+			</tr>
+			<tr>
+				<td class="colors" id= "hotpink"></td>
+				<td class="colors" id="mediumspringgreen"></td>
+			</tr>
+		</table>
+		
+		<div id="button">
+			<button id = "off" class="off_on">Off</button>
+			<button id = "on" class="off_on">On</button>
+			<div class="clear"></div>
+			<div id="level_box">Level: <br><span id="level">0</span></div>
+			<div id="strict">Easy <br><button></button></div>
+		</div>
+	</div>
+		
+	<script src="simon.js"></script>
+	</body>
+</html>	
